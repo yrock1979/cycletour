@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -94,11 +94,12 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
+            <form method="post" action="check.php">
             <div class="contact-wrap">
-                <input type="text" name="text" placeholder="Name">
-                <input type="email" name="email" placeholder="Email">
-                <textarea name="" id="" cols="30" rows="10"></textarea>
-                <button type="submit">Submit</button>
+                <input type="text" name="name" placeholder="お名前">
+                <input type="email" name="email" placeholder="メール">
+                <textarea name="content" cols="30" rows="10"></textarea>
+                <button type="submit">送信</button>
             </div>
         </section>
     </main>
